@@ -1,0 +1,123 @@
+
+/* General */
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header */
+
+.logobar {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.TClogo {
+  padding-left: 10px;
+  height: 50px;
+  width: 130px;
+}
+
+nav
+span {
+  display: flex;
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 10px 10px;
+}
+
+a {
+  color: white;
+}
+
+/* Mission */
+
+.Mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.OurMission {
+  background-color: black;
+  width: 1200px;
+  height: 140px;
+  align-items: center;
+
+}
+
+/* Tea of the Month */
+
+.Teamonth {
+  width: 1000px;
+  display: flex;
+  display: inline-block;
+}
+
+span
+img
+ {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.Steeping {
+  align-items: center;
+
+}
+/* locations */
+
+.Locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  align-items: baseline;
+  opacity: 1;
+  overflow: wrap;
+
+
+  }
+
+  .downtown {
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+  }
+
+  .EastBay {
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+  }
+
+  .Oakdale {
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+  }
+
+  /* Footer */
+  .Contact {
+    height: 200px;
+  }
+
+  .Copyrights {
+    text-align: left;
+    padding-left: 20px;
+  }
